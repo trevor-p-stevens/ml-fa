@@ -1,0 +1,60 @@
+{
+  "groups": {
+    "0": {
+      "name": "Trend Indicators",
+      "metrics": {
+        "0": "SMA (50)",
+        "1": "SMA (100)",
+        "2": "SMA (200)",
+        "3": "EMA (50)",
+        "4": "EMA (100)",
+        "5": "EMA (200)",
+        "6": "Price relative to SMA (distance)",
+        "7": "Trend slope",
+        "8": "Crossovers"
+      }
+    },
+    "1": {
+      "name": "Momentum",
+      "metrics": {
+        "0": "3-month return",
+        "1": "6-month return",
+        "2": "12-month return",
+        "3": "Residual momentum (vs market)"
+      }
+    },
+    "2": {
+      "name": "Oscillators",
+      "metrics": {
+        "0": "RSI (14)",
+        "1": "RSI (28)",
+        "2": "Williams %R",
+        "3": "Stochastic"
+      }
+    },
+    "3": {
+      "name": "Volatility & Risk",
+      "metrics": {
+        "0": "Rolling volatility (30d)",
+        "1": "Rolling volatility (90d)",
+        "2": "Downside volatility",
+        "3": "Beta vs market"
+      }
+    },
+    "4": {
+      "name": "Volume & Flow",
+      "metrics": {
+        "0": "Volume SMA",
+        "1": "Volume spikes",
+        "2": "Price * volume trends"
+      }
+    },
+    "5": {
+      "name": "Trend Strength",
+      "metrics": {
+        "0": "ADX",
+        "1": "MACD (signal + histogram)"
+      }
+    }
+  }
+}

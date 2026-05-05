@@ -1,0 +1,72 @@
+{
+  "groups": {
+    "0": {
+      "name": "Profitability & Margins",
+      "metrics": {
+        "0": "Gross Margin = grossProfit / revenue",
+        "1": "Operating Margin = operatingIncome / revenue",
+        "2": "Net Margin = netIncome / revenue",
+        "3": "EBITDA Margin = ebitda / revenue"
+      }
+    },
+    "1": {
+      "name": "Growth Metrics",
+      "metrics": {
+        "0": "Revenue growth (QoQ)",
+        "1": "Revenue growth (YoY)",
+        "2": "Net income growth (QoQ)",
+        "3": "Net income growth (YoY)",
+        "4": "EPS growth (epsDiluted)(QoQ)",
+        "5": "EPS growth (epsDiluted)(YoY)",
+        "6": "EBITDA growth (QoQ)",
+        "7": "EBITDA growth (YoY)",
+        "8": "Acceleration = (current growth – previous growth)"
+      }
+    },
+    "2": {
+      "name": "Cost Structure / Efficiency",
+      "metrics": {
+        "0": "R&D / Revenue",
+        "1": "SG&A / Revenue (sellingGeneralAndAdministrativeExpenses)",
+        "2": "Operating expenses / Revenue",
+        "3": "Cost of revenue / Revenue",
+        "4": "Efficiency trend (are costs growing slower than revenue?)"
+      }
+    },
+    "3": {
+      "name": "Earnings Quality",
+      "metrics": {
+        "0": "D&A / Revenue",
+        "1": "EBITDA vs EBIT gap",
+        "2": "Net income vs operating income divergence",
+        "3": "Large divergence → accounting noise / lower quality earnings"
+      }
+    },
+    "4": {
+      "name": "Per-Share & Dilution Metrics",
+      "metrics": {
+        "0": "EPS (eps, epsDiluted)",
+        "1": "Share count growth: weightedAverageShsOutDil change",
+        "2": "Dilution rate",
+        "3": "Earnings per share growth vs net income growth"
+      }
+    },
+    "5": {
+      "name": "Tax & Non-Operating Effects",
+      "metrics": {
+        "0": "Effective tax rate = incomeTaxExpense / incomeBeforeTax",
+        "1": "Non-operating income ratio",
+        "2": "One-time boosts",
+        "3": "Sustainability issues"
+      }
+    },
+    "6": {
+      "name": "Absolute Scale",
+      "metrics": {
+        "0": "Revenue (log)",
+        "1": "EBITDA (log)",
+        "2": "Net income (log)"
+      }
+    }
+  }
+}
